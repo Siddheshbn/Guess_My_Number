@@ -1,0 +1,303 @@
+.navbar{
+    /* width: 97vw; */
+    height: 15vh;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(251, 241, 52);
+    /* background-color: rgb(58, 162, 254); */
+}
+p{
+    color: rgb(255, 72, 0);
+}
+#inputtext{
+    width: 150px;
+    height: 50px;
+    /* border: 2px solid black; */
+    /* margin: 10px; */
+    border: none;
+    padding: 10px;
+    /* border-radius: 23px; */
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(255, 255, 187);
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:73vh;
+}
+.left>form{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 23px;
+    border: 3px solid yellow;
+    border-radius: 23px; */
+}
+.left{
+    margin: 50px;
+    height: 450px;
+    display: flex;
+    /* background-color: red; */
+    /* border: 2px solid rgb(0, 255, 81); */
+    border-radius: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    margin: 50px;
+    height: 450px;
+    text-align: center;
+    border: 2px solid rgb(0, 255, 81);
+    border-radius: 23px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items:center;
+    font-size: 49px;
+    color: rgb(140, 221, 59);
+    /* background-color: blue; */
+}
+
+#mybtn{
+    font-family : Mouse Memoirs;
+    font-size : 25px;
+    background-color : rgb(0, 255, 81);
+    color : black;
+}
+
+.footer{
+    /* width: 97vw; */
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    position: relative;
+    top: 15px;
+}
+
+.footer>p{
+   
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.footer>p:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration:none;
+    color: rgb(0, 69, 20);
+}
+
+hr{
+    border: 2px solid rgb(140, 221, 59);
+    width:50px;
+}
+
+#lost_img{
+    /* display: float; */
+    /* background-color: red; */
+    /* float: left; */
+    max-width: 20%;  
+    position:absolute;
+    top: 455px;
+    left: -1000px;
+}
+@keyframes lost_walk {
+    from{
+        left: -100px;
+    }
+    to{
+        left:1500px;
+    }
+}
+
+#floating_lost_msg{
+    /* display: block; */
+    position:relative;
+    /* animation-fill-mode: ; */
+    top: 280px;
+    right: 2230px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+@keyframes float_lost_msg {
+    0%{
+        left: -800px;
+    }
+    /* 90%{
+        left: 00px;
+    } */
+    100%{
+        left:820px;
+    }
+}
+
+#win_img{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+
+    opacity: 90%;
+    z-index: 1;
+}
+.win_div{
+    /* position: relative; */
+    display: none;
+}
+#win_msg{
+    position:absolute;
+    top:20%;
+    left: 25%;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    z-index: 12;
+    color: rgb(4, 111, 0);
+    animation: sparkling 1s ease-in-out infinite;
+}
+
+@keyframes sparkling {
+    0%{
+        color: rgb(4, 111, 0);
+    }
+    50%{
+        color: rgb(142, 218, 0);
+    }
+    100%{
+        color: rgb(4, 111, 0);
+    }
+}
+
+#restart_btn,#restart_btn_2{
+    position: relative;
+    top: 50px;
+    border: 3px solid rgb(64, 128, 0);
+    /* border-image: linear-gradient(to right, darkblue, darkorchid) 20; */
+    border-radius: 23px;
+    font-size: 50px;
+    height: 70px;
+    width: 200px;
+    background-color: rgb(0, 255, 217);
+    color: rgb(0, 140, 30);
+    transition: background-color 0.5s ease-in-out;
+    transition: color 0.3s ease-out;
+}
+/* #restart_btn_2:current{
+    max-width: 100%;
+} */
+#restart_btn_2{
+    position: relative;
+    top: 250px;
+}
+
+#restart_btn:hover,#restart_btn_2:hover{
+    background-color: rgb(64, 128, 0);
+    color: rgb(0, 255, 85);
+}
+
+#lost_div_id{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#chance_display>p{
+    margin: 0;
+}
+
+h4{
+    animation: sparkle 1s ease infinite;
+}
+
+@keyframes sparkle {
+    0%{
+        color: green;    
+    }
+    50%{    
+        color: rgb(200, 255, 0);
+    }
+    100%{
+        color: green; 
+    }
+}
+
+#tiger{
+    position: absolute;
+    top: 170px;
+    left: 247px;
+    max-width: 15%;
+    /* height: 150px; */
+
+}
+  
+#lost_msg_2{
+    position: relative;
+    top: 200px;
+    font-size: 80px;
+    color: red;
+}
+
+.help_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:40px;
+    /* left: 70px; */
+}
+
+.help_div>a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#help_btn{
+    border: none;
+    /* border: 3px solid rgb(128, 255, 0); */
+    /* border: 3px solid rgb(64, 128, 0); */
+    /* border-radius: 23px; */
+    font-size: 50px;
+    height: 70px;
+    width: 200px;
+    background-color: rgba(0, 255, 217, 0);
+    /* color: rgb(0, 140, 30); */
+    color: rgb(255, 255, 255);
+    /* transition: background-color 0.5s ease-in-out; */
+    transition: color 0.3s ease-out;
+    cursor: pointer;
+}
+
+#help_btn:hover{
+    color: rgb(128, 255, 0);
+}
+
+#man{
+    max-width: 3%;
+    position: absolute;
+    top: 4px;
+    left: 46px;
+}
+
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+  }
