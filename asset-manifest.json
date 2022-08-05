@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Guess_My_Number/static/css/main.cab1b26e.css",
-    "main.js": "/Guess_My_Number/static/js/main.b7a1cca3.js",
+    "main.js": "/Guess_My_Number/static/js/main.5e19df1a.js",
     "static/js/787.3bf2b60d.chunk.js": "/Guess_My_Number/static/js/787.3bf2b60d.chunk.js",
     "static/media/won-gif.gif": "/Guess_My_Number/static/media/won-gif.7c62a174e9af32ae4c49.gif",
     "static/media/eyes.gif": "/Guess_My_Number/static/media/eyes.bd1529502a3d786c9471.gif",
@@ -13,11 +13,11 @@
     "static/media/logo.svg": "/Guess_My_Number/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Guess_My_Number/index.html",
     "main.cab1b26e.css.map": "/Guess_My_Number/static/css/main.cab1b26e.css.map",
-    "main.b7a1cca3.js.map": "/Guess_My_Number/static/js/main.b7a1cca3.js.map",
+    "main.5e19df1a.js.map": "/Guess_My_Number/static/js/main.5e19df1a.js.map",
     "787.3bf2b60d.chunk.js.map": "/Guess_My_Number/static/js/787.3bf2b60d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cab1b26e.css",
-    "static/js/main.b7a1cca3.js"
+    "static/js/main.5e19df1a.js"
   ]
 }
